@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	 <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Katibeh">
+<style>
+body {
+  font-family: "Katibeh";
+  }
+  .lists{
+    height: 200px;
+    font-size: 20px;
+    background-color:lightgrey;
+  }
+  div.hide {
+  transition: all linear 0.5s;
+  height: 650px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body ng-app="">
+       <section class="header">
+        <div class="navbar">
+            <img src="images/logo.png" height="100px" class="logo">
+            <a href="index.html"> Home</a>
+            <a href="courses.html"> Courses</a>
+            <a href="admissions.html">Admissions</a>
+            <a href="events.html"> Events</a>
+            <a href="placements.html">Placements</a>
+        </div>
+        <div class="htext"> TRANSFORMING EDUCATION...<br>TRANSFORMING INDIA.....</div>
+    </section>
+    <h1><input type="checkbox" ng-model="myVar">  BUSINESS</h1>
+    <div class="hide"ng-show="myVar">
+    <h2>After 10th</h2><hr>
+    <ul style="margin-left: 200px;font-size: 20px;">
+        <li>Diploma in Business Administration</li>
+    </ul>
+    <h2>After 12th</h2><hr>
+    <ul class="lists"><div style="float: left;margin-left: 200px;">
+        <li>BBA</li>
+        <li>B.Com.</li>
+        <li>B.Sc. (Hons.) Economics</li>
+        <li>Dual Degree BBA - MBA</li>
+        <li>B.Com. (Hons.)</li>
+        <li>Integrated BBA - MBA</li>
+        <li>Integrated B.Com. - MBA</li>
+        <li>BBA (Hons.)</li></div>
+        <div style="float: right; margin-right:200px;">
+        <li>Dual Degree B.Com. (Hons.) – MBA</li>
+        <li>Dual Degree BBA (Hons.) - MBA</li>
+        <li>BBA (Information Technology)</li>
+        <li>BBA (Tourism and Hospitality)</li>
+        <li>BBA (Financial Markets) with NSE Academy</li>
+        <li>BBA (Airlines and Airport management)</li>
+        <li>BBA (International Finance) with IMA, USA</li>
+        <li>B.Com. (Management Accounting and International Finance) with IMA, USA</li></div>
+      </ul>
+      
+      <h2>After Graduation</h2><hr>
+    <ul class="lists"><div style="float: left;margin-left: 200px;">
+        <li>M.Com.</li>
+        <li>M.Sc. (Hons.) Economics</li>
+        <li>MBA with Talentedge</li>
+        <li>MBA</li>
+        <li>MBA (Hons.)</li>
+        <li>MBA (Hospital and Healthcare Management)</li>
+</div>
+        <div style="float: right; margin-right:200px;">
+           <li> MBA (Tourism and Hospitality)</li>
+            <li>MBA (International Business)</li>
+            <li>MBA (Business Analytics) with WileyNXT</li>
+            <li>MBA (Financial Markets) with NSE Academy</li>
+            <li>MBA (Supply Chain & Logistics) with Safeducate</li>
+
+        </div>
+              </ul></div>
+              <h1><input type="checkbox" ng-model="checked"> Computer Science Engineering</h1>
+    <div class="hide"ng-show="checked">
+    <h2>After 12th</h2><hr>
+    <ul class="lists"><div style="float: left;margin-left: 100px;">
+        <li>B.Tech(CSE)</li>
+        <li>B.Tech(IT)</li>
+        <li>Dual Degree B.Tech.-MBA (Computer Science and Engineering)</li>
+        <li>Integrated B.Tech. - M.Tech.(Computer Science and Engineering (CSE))</li>
+        <li>Dual Degree B.Tech. - M.Tech. (Computer Science and Engineering)</li>
+        <li>Integrated B.Tech. - MBA(Computer Science and Engineering (CSE))</li>
+        <li>B.Tech. (Hons.)(Computer Science and Engineering (CSE))</li>
+    </div>
+        <div style="float: right; margin-right:100px;">
+           <li> B.Tech. (Computer Science and Engg. - Data Science (ML & AI)) with upGrad</li>
+           <li> B.Tech (Computer Science and Engg.- Full Stack Development) with upGrad</li>
+            <li>B.Tech. (Computer Science and Engg. - Android Application Development)</li>
+            <li>B.Tech. (Computer Science and Engg. - Data Science)</li>
+            <li>B.Tech. (Computer Science and Engg. - Big Data)</li>
+            <li>B.Tech. (Computer Science and Engg. - Machine Learning)</li>
+            <li>B.Tech. (Computer Science and Engg. - Cyber Security)</li></div>
+      </ul>
+      
+      <h2>After Graduation</h2><hr>
+    <ul class="lists"><div style="float: left;margin-left: 200px;">
+           <li> M.Tech. (Computer Science and Engineering) [Full Time]</li>
+           <li> M.Tech. (Machine Learning and Artificial Intelligence) [Full Time]</li>
+</div>
+        <div style="float: right; margin-right:200px;">
+         <li>  M.Tech. (Information Security and Cyber Forensics) [Full Time]</li>
+          <li> M.Tech. (Data Science and Analytics) [Full Time]</li>
+
+        </div>
+              </ul></div>
+
+
+<h1><input type="checkbox" ng-model="check"> COMPUTER APPLICATION</h1>
+    <div class="hide"ng-show="check">
+    <h2>After 12th</h2><hr>
+    <ul class="lists"><div style="float: left;margin-left: 100px;">
+        <li>BCA</li>
+        <li>B.Sc. (Computer Science)</li>
+        <li>Dual Degree BCA-MCA</li>
+        <li>BCA (Hons.)</li>
+        <li>Dual Degree BCA (Hons.) -MCA (Hons.)</li>
+        <li>B.Sc. (Computer Science)</li>
+        <li>B.Sc. (Information Technology)</li>
+        </div>
+      </ul>
+      
+      <h2>After Graduation</h2><hr>
+    <ul class="lists"><div style="float: left;margin-left: 200px;">
+           <li> MCA</li>
+           <li> MCA (Hons.)</li>
+           <li> M.Sc. (Computer Science)</li>
+            <li>M.Sc. (Information Technology)</li>
+</div>
+</ul></div>
+
+              <h1><input type="checkbox" ng-model="var"> LAW</h1>
+    <div class="hide"ng-show="var">
+    <h2>After 12th</h2><hr>
+    <ul class="lists"><div style="float: left;margin-left: 100px;">
+       <li> B.A., LL.B.(Hons.)</li>
+        <li>B.Com., LL.B.(Hons.)</li>
+        <li>BBA, LL.B. (Hons.)</li>
+        </div>
+      </ul>
+      
+      <h2>After Graduation</h2><hr>
+    <ul class="lists"><div style="float: left;margin-left: 200px;">
+           <li> LL.B</li>
+           <li> LL.M</li>
+</div>
+</ul></div>
+               
+
+
+        
+</body>
+</html>
