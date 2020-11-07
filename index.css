@@ -19,7 +19,7 @@
 }
 .hostel{
   font-size: 24px;
-  height: 1223px;
+  height: 1227px;
   margin-bottom: 10px;
   margin-left: 50px;
   margin-right: 50px;
@@ -131,4 +131,42 @@ input[type=reset]:hover {
     background: goldenrod;
     color:#004068;
     box-shadow: 5px 5px 15px rgb(133, 131, 131);
+}
+footer{
+  height: 100px;
+  background-color: lightgrey;
+  margin-top: 10px;
+
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px;
+  float: left;
+  margin-left: 10px;
+  
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
