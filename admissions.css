@@ -82,7 +82,21 @@ input[type="submit"]:hover{
     color:#004068;
     box-shadow: 5px 5px 15px rgb(133, 131, 131);
 }
-
+input[type="reset"]{
+    display: block;
+    margin: auto;
+    background: none;
+    padding: 10px;
+    border: 2px solid goldenrod;
+    transition: padding .3s;
+    margin-top: 10px;
+}
+input[type="reset"]:hover{
+    padding: 10px 20px;
+    background: goldenrod;
+    color:#004068;
+    box-shadow: 5px 5px 15px rgb(133, 131, 131);
+}
 .invalid{
     border-color: red;
 }
